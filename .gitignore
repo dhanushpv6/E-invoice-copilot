@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+*.sqlite3
+*.db
+uploads/
+artifacts/
+dist/
+build/
+*.egg-info/
+.DS_Store
+node_modules/
+frontend/dist/
+e2e/node_modules/
+e2e/test-results/
+e2e/playwright-report/
+# KoSIT validator release files are downloaded locally, never committed
+docker/kosit/vendor/*
+!docker/kosit/vendor/.gitkeep
